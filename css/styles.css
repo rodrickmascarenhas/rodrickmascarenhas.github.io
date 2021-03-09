@@ -68,7 +68,7 @@ section > dl, section > ul{
 	background-color: rgba(122, 186, 245,0.8);
 	border: 5px outset rgba(225, 231, 226,0.8);
 	border-radius: 10px;
-	box-shadow: rgb(66, 70, 66) 3px 9px 15px 3px;
+	box-shadow: rgba(66, 70, 66,0.6) 3px 9px 15px 3px;
 }
 section > dl::after{
 	display: table;
