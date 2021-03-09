@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body > *{
+*{
 	font-family: Verdana,'Times New Roman', Times, serif;
 	margin: 0 50px 0px 20px;
 }
