@@ -13,8 +13,9 @@ body
 	max-width: 1020px;
 	min-width: 640px;
 }
-body > *,aside, nav{
+*{
 	margin: 0px 50px 0px 20px;
+	font: Verdana, Geneva, sans-serif;
 }
 header
 {
