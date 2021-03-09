@@ -16,7 +16,6 @@ body > h1 {
 body > header > nav{
 	height: 30%;
 	display: table-cell;
-	vertical-align: middle;
 	margin: auto;
 }
 aside > ul li{
