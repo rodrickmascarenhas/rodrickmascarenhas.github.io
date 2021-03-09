@@ -62,15 +62,14 @@ section h1:last-of-type {
 section:last-of-type h1{
 	background-color: rgb(44, 177, 32);
 }
-section dl,section ul{
+section dl,section > ul{
 	margin: auto;
 	overflow: auto;
 	background-color: rgb(122, 186, 245);
-	border: 5px groove outset rgb(225, 231, 226);
 	border-radius: 10px;
 	box-shadow: rgb(66, 70, 66) 3px 9px 15px 3px;
 }
-section dl::after, section ul::after{
+section dl::after, section > ul::after{
 	display: table;
 	content: "";
 	vertical-align: middle;
@@ -82,10 +81,6 @@ section p
 section li
 {
 	list-style-type: circle;
-}
-dl
-{
-		
 }
 dt{
 	font: normal small-caps normal 0.7em/0.7em;
