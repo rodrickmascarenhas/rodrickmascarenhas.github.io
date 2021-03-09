@@ -19,6 +19,7 @@ body > header > nav{
 	display: table-cell;
 }
 aside > ul li{
+	width: 33%;
 	list-style-type: none;
 }
 aside > ul li:nth-of-type(2n-1){
