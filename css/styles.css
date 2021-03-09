@@ -1,7 +1,8 @@
 @charset "utf-8";
 
-*{
+body > *{
 	font-family: Verdana,'Times New Roman', Times, serif;
+	margin: 0 3% 0px 3%;
 }
 /* Structural Styles */
 
@@ -16,7 +17,6 @@ body > h1 {
 body > header > nav{
 	height: 30%;
 	display: table-cell;
-	margin: auto;
 }
 aside > ul li{
 	list-style-type: none;
