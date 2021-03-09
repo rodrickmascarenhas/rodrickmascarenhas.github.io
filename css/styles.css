@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{
+body > *{
 	font-family: Verdana,'Times New Roman', Times, serif;
 	padding: 0px 15px 0px 15px;
 }
@@ -89,6 +89,7 @@ dd{
 footer
 {
 	padding: 0 0 0 0;
+	margin: 5% auto;
 	text-align: center;
 	padding-bottom: 4px;
 }
