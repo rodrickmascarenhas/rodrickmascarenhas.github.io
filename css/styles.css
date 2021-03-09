@@ -2,7 +2,7 @@
 
 body{
 	font-family: Verdana,'Times New Roman', Times, serif;
-	padding: 0px 15px 0px 5px;
+	padding: 0px 15px 0px 15px;
 }
 /* Structural Styles */
 
@@ -29,7 +29,7 @@ aside > ul h1:first-of-type{
 }
 a{
 	text-decoration: none;	
-	display: block;
+	display: inline-block;
 }
 p{
 	font-size: 1.1em;
