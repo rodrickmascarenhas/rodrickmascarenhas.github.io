@@ -20,7 +20,7 @@ body > header > nav{
 	margin: auto;
 }
 aside > ul{
-	text-indent: 1px;
+	height: 15px;
 	border: 1px outset black;
 }
 aside > ul li{
@@ -68,7 +68,7 @@ section:last-of-type h1{
 }
 section p
 {
-	line-height: 1.7em;
+	line-height: 1.1em;
 }
 section li
 {
@@ -80,10 +80,10 @@ dl
 	overflow: hidden;	
 }
 dt{
-	font: normal small-caps normal 0.7em/1em;
+	font: normal small-caps normal 0.7em/0.7em;
 }
 dd{
-	font: normal small-caps normal 0.5em/1em;
+	font: normal small-caps normal 0.5em/0.7em;
 }
 
 /* Footer Styles */
