@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body > h1, body > header, body > section, body > footer{
+body > h1, body > header, body > section, body > footer, hr{
 	font-family: Verdana,'Times New Roman', Times, serif;
 	padding: 0px 15px 0px 15px;
 }
