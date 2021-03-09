@@ -70,7 +70,7 @@ section > dl, section > ul{
 	border-radius: 10px;
 	box-shadow: rgba(66, 70, 66,0.6) 3px 9px 15px 3px;
 }
-section > dl::after{
+section > dl::after, section > ul::after{
 	display: table;
 	content: "";
 	vertical-align: middle;
@@ -91,6 +91,5 @@ dd{
 footer
 {
 	text-align: center;
-	margin-top: 5%
 	padding-bottom: 4px;
 }
