@@ -20,6 +20,7 @@ body > header > nav{
 	margin: auto;
 }
 aside > ul{
+	text-indent: 1px;
 	border: 1px outset black;
 }
 aside > ul li{
@@ -33,11 +34,12 @@ aside > ul li:nth-of-type(2n-1){
 aside > ul h1:first-of-type{
 	font-size:1.7em;
 }
-aside > ul a,{
+aside ul a{
+	color: gray transparent;
 	text-decoration: none;	
 }
 aside > ul a:hover, aside > ul a:visited{
-	text-indent: 1px;
+	color: black;
 	display: block;
 }
 aside p, nav p
