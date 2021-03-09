@@ -30,8 +30,6 @@ aside > ul h1:first-of-type{
 a{
 	text-decoration: none;	
 	display: block;
-	height: auto;
-	width: auto;
 }
 p{
 	font-size: 1.1em;
