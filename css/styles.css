@@ -65,7 +65,7 @@ section:last-of-type h1{
 section > dl, section > ul{
 	margin: auto;
 	overflow: auto;
-	background-color: rgb(122, 186, 245);
+	background-color: rgba(122, 186, 245,0.2);
 	border-radius: 10px;
 	box-shadow: rgb(66, 70, 66) 3px 9px 15px 3px;
 }
