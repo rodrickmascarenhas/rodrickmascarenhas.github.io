@@ -69,7 +69,7 @@ section > dl, section > ul{
 	border-radius: 10px;
 	box-shadow: rgb(66, 70, 66) 3px 9px 15px 3px;
 }
-section > dl::after, section > ul::after{
+section > dl::after{
 	display: table;
 	content: "";
 	vertical-align: middle;
