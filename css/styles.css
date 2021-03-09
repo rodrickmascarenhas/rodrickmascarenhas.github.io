@@ -31,7 +31,8 @@ aside > ul h1:first-of-type{
 a{
 	text-decoration: none;	
 	display: block;
-	height: 10px;
+	height: 3%;
+	width: 7%;
 }
 aside a:link, aside a:visited{
 	text-indent: 0.2em;
