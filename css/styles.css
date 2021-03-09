@@ -20,7 +20,7 @@ body > header > nav{
 	margin: auto;
 }
 aside > ul{
-	border: thick outset black;
+	border: 1px outset black;
 }
 aside > ul li{
 	list-style-type: none;
