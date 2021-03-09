@@ -88,8 +88,9 @@ dd{
 
 /* Footer Styles */
 
-br,footer
+footer
 {
 	text-align: center;
+	margin-top: 5%
 	padding-bottom: 4px;
 }
