@@ -20,7 +20,7 @@ body > header > nav{
 	margin: auto;
 }
 aside > ul{
-	height: 15px;
+	height: 2%;
 	border: 1px outset black;
 }
 aside > ul li{
@@ -32,10 +32,9 @@ aside > ul li:nth-of-type(2n-1){
 	height: 10px auto;
 }
 aside > ul h1:first-of-type{
-	font-size:1.7em;
+	font-size:1.1em;
 }
 aside ul a{
-	color: gray transparent;
 	text-decoration: none;	
 }
 aside > ul a:hover, aside > ul a:visited{
@@ -46,7 +45,6 @@ aside p, nav p
 {
 	position: relative;
 	font-size: 1.1em;
-	display: block;
 }
 
 /* Section Styles */
