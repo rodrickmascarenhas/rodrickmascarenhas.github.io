@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+*{
+	font-family: Verdana,'Times New Roman', Times, serif;
+}
+/* Structural Styles */
+
+
+/* Body Header Styles */
+
+body > h1 {
+	text-align: center;
+}
+
+/* Navigation Styles */
+body > header > nav{
+	height: 30%;
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+}
+aside > ul{
+	border: thick outset black;
+}
+aside > ul li{
+	list-style-type: none;
+	color:rgb(0,0,0);
+}
+aside > ul li:nth-of-type(2n-1){
+	float: left;
+	height: 10px auto;
+}
+aside > ul h1:first-of-type{
+	font-size:1.7em;
+}
+aside > ul a:hover.purple, aside > ul a:visited.purple{
+	text-indent: 1px;
+	display: block;
+}
+aside > ul a:hover.pink, aside > ul a:visited.pink{
+	text-indent: 1px;
+	display: block;
+}
+aside p, nav p
+{
+	position: relative;
+	font-size: 1.1em;
+	display: block;
+}
+
+/* Section Styles */
+
+section h1
+{
+    color: white;
+	text-align: center;
+	padding-bottom: 4px;
+}
+section h1:first-of-type {
+	background-color: rgb(236, 64, 58);
+}
+section h1:last-of-type {
+	background-color: rgb(46, 174, 253);
+}
+section:last-of-type h1{
+	background-color: rgb(44, 177, 32);
+}
+section p
+{
+	line-height: 1.7em;
+}
+section li
+{
+	list-style-type: circle;
+}
+dl
+{
+	padding: 0px 50px 10px 20px;
+	overflow: hidden;	
+}
+dt{
+	font: normal small-caps normal 0.7em/1em;
+}
+dd{
+	font: normal small-caps normal 0.5em/1em;
+}
+
+/* Footer Styles */
+
+footer
+{
+	text-align: center;
+	padding-bottom: 4px;
+}
