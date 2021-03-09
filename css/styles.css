@@ -19,27 +19,28 @@ body > header > nav{
 	vertical-align: middle;
 	margin: auto;
 }
-aside > ul{
-	height: 2%;
-	border: 1px outset black;
-}
 aside > ul li{
 	list-style-type: none;
-	color:rgb(0,0,0);
 }
 aside > ul li:nth-of-type(2n-1){
 	float: left;
-	height: 10px auto;
 }
 aside > ul h1:first-of-type{
 	font-size:1.1em;
 }
-aside ul a{
+a{
 	text-decoration: none;	
-}
-aside > ul a:hover, aside > ul a:visited{
-	color: black;
 	display: block;
+	height: 10px;
+}
+aside a:link, aside a:visited{
+	text-indent: 0.2em;
+	display: block;
+	color: rgba(0,0,0,0.8);
+}
+aside a:hover, aside a:active{
+	text-indent: 0.2em;
+	color: rgba(0,0,0,0.2);
 }
 aside p, nav p
 {
